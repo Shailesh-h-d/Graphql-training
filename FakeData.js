@@ -13,13 +13,6 @@ const usersList = [
                 "username":"mnoq",
                 "age":21,
                 "nationality":"RUSSIA"
-            },
-            {
-                "id":5,
-                "name":"qrst",
-                "username":"qrtu",
-                "age":25,
-                "nationality":"INDIA"
             }
         ]
     },
