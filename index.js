@@ -6,6 +6,7 @@ const pubsub = new PubSub();
 
 const server = new ApolloServer({typeDefs, resolvers, context: ({req, res}) => ({req, res, pubsub})});
 
+// create server. 
 server.listen().then(({url}) => {
     console.log(`server is up and running at ${url}`);
 });

@@ -6,7 +6,7 @@ const { subscribe } = require("graphql");
 const pubsub = new PubSub();
 
 const NEW_USER = "NEW_USER";
-
+//resolvers variable. 
 const resolvers = {
     Query: {
         users: () => {
