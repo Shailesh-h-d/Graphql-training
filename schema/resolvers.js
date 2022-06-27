@@ -1,4 +1,4 @@
-
+// resolver for graphql
 const {usersList, moviesList} = require("../FakeData");
 const _ = require("lodash");
 const { PubSub } = require('graphql-subscriptions');
