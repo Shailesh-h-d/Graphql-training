@@ -43,7 +43,7 @@ type Mutation {
     updateUsername(input: UpdateUsernameInput!): User
     deleteUser(id: ID!): User
 }
-
+# subscription is not working. 
 type Subscription {
     userAdded: User!
 }

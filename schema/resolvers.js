@@ -44,6 +44,7 @@ const resolvers = {
             const lastId = usersList[usersList.length - 1].id;
             user.id = lastId+1;
             usersList.push(user);
+            // subscription part. some error. 
             pubsub.publish(NEW_USER, {
                 userAdded: user
             });
