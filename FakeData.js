@@ -1,4 +1,4 @@
-
+// returns array of objects.
 const usersList = [
     {
         id: 1,
